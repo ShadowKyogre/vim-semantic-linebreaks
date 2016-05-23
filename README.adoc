@@ -1,0 +1,17 @@
+= vim-semantic-linebreaks
+
+An attempt to use implement semantic linebreaks as a reusable set of functions.
+
+Inspired by http://rhodesmill.org/brandon/2012/one-sentence-per-line/
+
+Currently,
+there's no standardized way to set this up on a per-markup basis.
+If you want to add a variant for
+LaTeX or
+markdown,
+edit autoload/semantic_linebreaks.vim and
+declare the function in semantic_linebreaks#<markup>.
+Also don't forget to set up a buffer local command that calls the appropriate function.
+
+The next one I'm probably going to add here is markdown since I also know that well.
+I'll add any edge cases I can think of here.
