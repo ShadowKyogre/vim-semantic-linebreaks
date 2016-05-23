@@ -13,5 +13,13 @@ edit autoload/semantic_linebreaks.vim and
 declare the function in semantic_linebreaks#<markup>.
 Also don't forget to set up a buffer local command that calls the appropriate function.
 
+Please send a pull request if you do!
+I'd love to use this for
+more markup formats that allow such.
+
+In case you're wondering,
+all of this was actually typed with semantic linebreaks from the plugin.
+Check out the source of this README!
+
 The next one I'm probably going to add here is markdown since I also know that well.
 I'll add any edge cases I can think of here.
