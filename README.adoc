@@ -23,3 +23,8 @@ Check out the source of this README!
 
 The next one I'm probably going to add here is markdown since I also know that well.
 I'll add any edge cases I can think of here.
+
+Note: Ideally,
+these should all be easily undone with either: 
+. +normal! vipJ+ - for soft wraps
+. +normal! vipgq+ - for hard wraps
