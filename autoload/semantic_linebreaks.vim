@@ -9,7 +9,7 @@ function! semantic_linebreaks#asciidoc(preselect)
 		\ '[.!?,]"%(__)?',
 		\ '[!?,;]',
 		\ ',%( ' . l:conjunctions . ')@!',
-		\ '%(%(^|[ "])M%(rs?|s))@<!\.',
+		\ '%(%(^|[ "])M%(rs?|s)|^\.*)@<!\.',
 		\ '\?!',
 		\ '!\?',
 		\ '%(, )@<!' . l:conjunctions,
